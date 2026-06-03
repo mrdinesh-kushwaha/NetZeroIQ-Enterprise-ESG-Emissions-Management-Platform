@@ -52,7 +52,7 @@ export default function Layout() {
               <span className="text-white text-xs font-bold">CL</span>
             </div>
             <div>
-              <div className="text-white text-sm font-semibold leading-tight">CarbonLens</div>
+              <div className="text-white text-sm font-semibold leading-tight">NetZeroIQ</div>
               <div className="text-gray-400 text-xs">ESG Platform</div>
             </div>
           </div>
@@ -110,7 +110,7 @@ export default function Layout() {
             <span className="text-white text-xs font-bold">CL</span>
           </div>
           <div>
-            <div className="text-white text-sm font-semibold leading-none">CarbonLens</div>
+            <div className="text-white text-sm font-semibold leading-none">NetZeroIQ</div>
             <div className="text-gray-400 text-xs">ESG Platform</div>
           </div>
         </div>

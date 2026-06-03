@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("analyst@carbonlens.com");
+  const [email, setEmail] = useState("analyst@netzeroiq.com");
   const [password, setPassword] = useState("analyst@1234");
   const [error, setError] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -44,7 +44,7 @@ export default function LoginPage() {
             <span className="text-white font-bold text-xs">CL</span>
           </div>
           <div>
-            <div className="text-white font-semibold text-base leading-none">CarbonLens</div>
+            <div className="text-white font-semibold text-base leading-none">NetZeroIQ</div>
             <div className="text-green-400 text-xs mt-0.5">Emissions Intelligence</div>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default function LoginPage() {
               <span className="text-white font-bold text-xs">CL</span>
             </div>
             <div>
-              <div className="text-white font-semibold text-lg leading-none">CarbonLens</div>
+              <div className="text-white font-semibold text-lg leading-none">NetZeroIQ</div>
               <div className="text-green-400 text-xs mt-0.5">Emissions Intelligence</div>
             </div>
           </div>
@@ -188,7 +188,7 @@ export default function LoginPage() {
           </div>
 
           <div className="text-gray-600 text-xs">
-            © 2026 CarbonLens. Enterprise Emissions Management.
+            © 2026 NetZeroIQ. Enterprise Emissions Management.
           </div>
         </div>
       </div>
@@ -317,7 +317,7 @@ export default function LoginPage() {
           {/* Copyright — Mobile only */}
           <div className="lg:hidden text-center mt-6">
             <span className="text-gray-700 text-xs">
-              © 2026 CarbonLens. Enterprise Emissions Management.
+              © 2026 NetZeroIQ. Enterprise Emissions Management.
             </span>
           </div>
         </div>

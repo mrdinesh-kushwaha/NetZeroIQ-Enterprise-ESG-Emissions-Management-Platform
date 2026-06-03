@@ -1,6 +1,6 @@
-# CarbonLens — Enterprise Emissions Management Platform
+# netzeroiq — Enterprise Emissions Management Platform
 
-CarbonLens is a multi-tenant ESG emissions tracking platform. It ingests data from SAP exports, utility portals, and travel booking systems (Concur/Navan), normalizes it into CO₂e figures, and routes records through a review-and-approval workflow with a full audit trail.
+netzeroiq is a multi-tenant ESG emissions tracking platform. It ingests data from SAP exports, utility portals, and travel booking systems (Concur/Navan), normalizes it into CO₂e figures, and routes records through a review-and-approval workflow with a full audit trail.
 
 ## Tech Stack
 
@@ -28,11 +28,11 @@ CarbonLens is a multi-tenant ESG emissions tracking platform. It ingests data fr
 ## Project Structure
 
 ```
-carbonlens/
+netzeroiq/
 ├── backend/                         # Spring Boot application
 │   ├── pom.xml
-│   └── src/main/java/com/carbonlens/
-│       ├── CarbonLensApplication.java
+│   └── src/main/java/com/netzeroiq/
+│       ├── netzeroiqApplication.java
 │       ├── config/                  # Security, CORS, Jackson, exception handler
 │       ├── controller/              # REST controllers
 │       ├── dto/                     # Request/response DTOs
@@ -76,7 +76,7 @@ carbonlens/
 cd backend
 
 # Create database
-createdb carbonlens
+createdb netzeroiq
 
 # Set environment variables (or edit application.properties)
 export DB_USER=postgres
@@ -152,9 +152,9 @@ See `NormalizationService.java` for the full table.
 
 Demo credentials are now force-verified on every backend startup, so old database passwords will not break login anymore.
 
-- Analyst: `analyst@carbonlens.com` / `analyst@1234`
-- Reviewer: `reviewer@carbonlens.com` / `reviewer@1234`
-- Admin: `dinesh@carbonlens.com` / `dinesh@1234`
+- Analyst: `analyst@netzeroiq.com` / `analyst@1234`
+- Reviewer: `reviewer@netzeroiq.com` / `reviewer@1234`
+- Admin: `dinesh@netzeroiq.com` / `dinesh@1234`
 
 The frontend also skips token refresh on `/auth/login`, so stale localStorage tokens cannot interfere with login.
 
@@ -162,7 +162,7 @@ The frontend also skips token refresh on `/auth/login`, so stale localStorage to
 
 # 📄 License
 
-MIT License © 2026 CarbonLens Inc.
+MIT License © 2026 netzeroiq Inc.
 
 ---
 

@@ -11,11 +11,11 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.carbonlens</groupId>
-    <artifactId>carbonlens-backend</artifactId>
+    <groupId>com.netzeroiq</groupId>
+    <artifactId>netzeroiq-backend</artifactId>
     <version>0.1.0</version>
-    <name>CarbonLens Backend</name>
-    <description>CarbonLens ESG Emissions Platform - Spring Boot Backend</description>
+    <name>netzeroiq Backend</name>
+    <description>netzeroiq ESG Emissions Platform - Spring Boot Backend</description>
 
     <properties>
         <java.version>21</java.version>
