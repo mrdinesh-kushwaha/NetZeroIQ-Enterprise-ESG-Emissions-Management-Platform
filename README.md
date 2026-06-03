@@ -1,4 +1,4 @@
-# netzeroiq — Enterprise Emissions Management Platform
+# NetZeroIQ — Enterprise Emissions Management Platform
 
 netzeroiq is a multi-tenant ESG emissions tracking platform. It ingests data from SAP exports, utility portals, and travel booking systems (Concur/Navan), normalizes it into CO₂e figures, and routes records through a review-and-approval workflow with a full audit trail.
 
@@ -7,7 +7,7 @@ netzeroiq is a multi-tenant ESG emissions tracking platform. It ingests data fro
 | Layer    | Technology                          |
 |----------|-------------------------------------|
 | Backend  | **Java 21 + Spring Boot 3.2**       |
-| Auth     | JWT (JJWT 0.12) via Spring Security |
+| Auth     | JWT (JWT 0.12) via Spring Security |
 | Database | PostgreSQL (via Spring Data JPA)    |
 | Frontend | React 18 + Vite + Tailwind CSS      |
 | CSV      | OpenCSV                             |
